@@ -14,7 +14,7 @@ const port = process.env.PORT || 4001;
 const MONGO_URL = process.env.MONGO_URI;
 
 // Use a fallback for local development (for CORS origin)
-const frontendUrl = process.env.FRONTEND_URL || "http://localhost:3000";
+const frontendUrl = process.env.FRONTEND_URL || "http://localhost:5173";
 
 // middleware
 app.use(express.json());
